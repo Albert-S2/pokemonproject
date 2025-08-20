@@ -1,10 +1,10 @@
-
 export default function ChooseGamePage() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div>
       <h1 className="text-3xl text-center">
         Choose Game
       </h1>
+    <img src="/sword.jpg" alt="Sword and Shield" className="mt-4 w-100 h-auto " />
     </div>
   );
 }
