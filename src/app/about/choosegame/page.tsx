@@ -5,6 +5,7 @@ export default function ChooseGamePage() {
         Choose Game
       </h1>
     <img src="/sword.jpg" alt="Sword and Shield" className="mt-4 w-100 h-auto " />
+      <h2>Pokémon Sword / Pokémon Shield</h2>
     </div>
   );
 }
