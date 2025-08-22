@@ -23,5 +23,17 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "description": "link to the deployed version:  https://mypokedex-topaz.vercel.app/",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albert-S2/pokemonproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albert-S2/pokemonproject/issues"
+  },
+  "homepage": "https://github.com/Albert-S2/pokemonproject#readme"
 }
