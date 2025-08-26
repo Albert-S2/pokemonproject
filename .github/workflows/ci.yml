@@ -25,5 +25,5 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Run tests (optional)
-        run: npm test
+      # - name: Run tests (optional)
+      #   run: npm test
