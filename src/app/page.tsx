@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Head from "next/head";
 
 interface PokemonType {
   slot: number;
@@ -129,6 +130,9 @@ export default function PokemonSearchPage() {
 
   return (
     <div className="pokedex-bg">
+      <Head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/image1.jpg" />
+      </Head>
       <div className="pokedex-header">
         <div className="pokedex-light blue" />
         <div className="pokedex-light white" />
