@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface PokemonType {
   slot: number;
@@ -76,11 +77,11 @@ export default function PokemonSearchPage() {
           const typeRes = await fetch(`https://pokeapi.co/api/v2/type/${t}`);
           const typeData = await typeRes.json();
 
-          typeData.damage_relations.double_damage_to.forEach((d: any) => {
+          typeData.damage_relations.double_damage_to.forEach((d: { name: string }) => {
             if (!strongAgainst.includes(d.name)) strongAgainst.push(d.name);
           });
 
-          typeData.damage_relations.double_damage_from.forEach((d: any) => {
+          typeData.damage_relations.double_damage_from.forEach((d: { name: string }) => {
             if (!weakTo.includes(d.name)) weakTo.push(d.name);
           });
         }
@@ -105,9 +106,13 @@ export default function PokemonSearchPage() {
         }
 
         setData({ name: pokemon.name, sprite, types, strongAgainst, weakTo, evolutions });
-      } catch (err: any) {
+      } catch (err: unknown) {
         setData(null);
-        setError(err.message || "Failed to fetch Pokémon data.");
+        setError(
+          err instanceof Error
+            ? err.message
+            : "Failed to fetch Pokémon data."
+        );
       } finally {
         setLoading(false);
       }
@@ -152,9 +157,11 @@ export default function PokemonSearchPage() {
             <div className="pokedex-card">
               <div className="pokedex-screen" />
               <div className="pokedex-card-content">
-                <img
+                <Image
                   src={data.sprite}
                   alt={data.name}
+                  width={120}
+                  height={120}
                   className="pokedex-img"
                 />
                 <h2 className="pokedex-name">{data.name}</h2>
