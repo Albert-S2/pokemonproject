@@ -363,7 +363,7 @@ export default function PokemonSearchPage() {
         .pokedex-name {
           font-size: 2rem;
           font-weight: bold;
-          color: #e3350d;
+          color: #111; /* Change from #e3350d to black */
           margin-bottom: 0.5rem;
           text-transform: capitalize;
           text-shadow: 1px 1px 4px #333;
