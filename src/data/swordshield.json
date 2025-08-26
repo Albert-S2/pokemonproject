@@ -1,0 +1,222 @@
+[
+    {
+    "Pokedex Number": 1,
+    "Name": "Bulbasaur",
+    "Form/Variant": "Normal",
+    "Type 1": "Grass",
+    "Type 2": "Poison",
+    "Strong Against": [
+      "Water",
+      "Ground",
+      "Rock",
+      "Fairy",
+      "Grass"
+    ],
+    "Weak To": [
+      "Fire",
+      "Flying",
+      "Ice",
+      "Psychic"
+    ],
+    "Evolution Stage": "Basic",
+    "Evolution Method": "Level 16",
+    "Evolves From": null,
+    "Evolves Into": "Ivysaur"
+  },
+  {
+    "Pokedex Number": 2,
+    "Name": "Ivysaur",
+    "Form/Variant": "Normal",
+    "Type 1": "Grass",
+    "Type 2": "Poison",
+    "Strong Against": [
+      "Water",
+      "Ground",
+      "Rock",
+      "Fairy",
+      "Grass"
+    ],
+    "Weak To": [
+      "Fire",
+      "Flying",
+      "Ice",
+      "Psychic"
+    ],
+    "Evolution Stage": "Stage 1",
+    "Evolution Method": "Level 32",
+    "Evolves From": "Bulbasaur",
+    "Evolves Into": "Venusaur"
+  },
+  {
+    "Pokedex Number": 3,
+    "Name": "Venusaur",
+    "Form/Variant": "Normal",
+    "Type 1": "Grass",
+    "Type 2": "Poison",
+    "Strong Against": [
+      "Water",
+      "Ground",
+      "Rock",
+      "Fairy",
+      "Grass"
+    ],
+    "Weak To": [
+      "Fire",
+      "Flying",
+      "Ice",
+      "Psychic"
+    ],
+    "Evolution Stage": "Final",
+    "Evolution Method": "Final evolution",
+    "Evolves From": "Ivysaur",
+    "Evolves Into": null
+  },
+  {
+    "Pokedex Number": 4,
+    "Name": "Charmander",
+    "Form/Variant": "Normal",
+    "Type 1": "Fire",
+    "Type 2": null,
+    "Strong Against": [
+      "Grass",
+      "Bug",
+      "Ice",
+      "Steel"
+    ],
+    "Weak To": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "Evolution Stage": "Basic",
+    "Evolution Method": "Level 16",
+    "Evolves From": null,
+    "Evolves Into": "Charmeleon"
+  },
+  {
+    "Pokedex Number": 5,
+    "Name": "Charmeleon",
+    "Form/Variant": "Normal",
+    "Type 1": "Fire",
+    "Type 2": null,
+    "Strong Against": [
+      "Grass",
+      "Bug",
+      "Ice",
+      "Steel"
+    ],
+    "Weak To": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "Evolution Stage": "Stage 1",
+    "Evolution Method": "Level 36",
+    "Evolves From": "Charmander",
+    "Evolves Into": "Charizard"
+  },
+  {
+    "Pokedex Number": 6,
+    "Name": "Charizard",
+    "Form/Variant": "Normal",
+    "Type 1": "Fire",
+    "Type 2": "Flying",
+    "Strong Against": [
+      "Grass",
+      "Bug",
+      "Ice",
+      "Steel",
+      "Fighting"
+    ],
+    "Weak To": [
+      "Water",
+      "Rock",
+      "Electric"
+    ],
+    "Evolution Stage": "Final",
+    "Evolution Method": "Final evolution",
+    "Evolves From": "Charmeleon",
+    "Evolves Into": null
+  },
+  {
+    "Pokedex Number": 7,
+    "Name": "Squirtle",
+    "Form/Variant": "Normal",
+    "Type 1": "Water",
+    "Type 2": null,
+    "Strong Against": [
+      "Fire",
+      "Ground",
+      "Rock"
+    ],
+    "Weak To": [
+      "Electric",
+      "Grass"
+    ],
+    "Evolution Stage": "Basic",
+    "Evolution Method": "Level 16",
+    "Evolves From": null,
+    "Evolves Into": "Wartortle"
+  },
+  {
+    "Pokedex Number": 8,
+    "Name": "Wartortle",
+    "Form/Variant": "Normal",
+    "Type 1": "Water",
+    "Type 2": null,
+    "Strong Against": [
+      "Fire",
+      "Ground",
+      "Rock"
+    ],
+    "Weak To": [
+      "Electric",
+      "Grass"
+    ],
+    "Evolution Stage": "Stage 1",
+    "Evolution Method": "Level 36",
+    "Evolves From": "Squirtle",
+    "Evolves Into": "Blastoise"
+  },
+  {
+    "Pokedex Number": 9,
+    "Name": "Blastoise",
+    "Form/Variant": "Normal",
+    "Type 1": "Water",
+    "Type 2": null,
+    "Strong Against": [
+      "Fire",
+      "Ground",
+      "Rock"
+    ],
+    "Weak To": [
+      "Electric",
+      "Grass"
+    ],
+    "Evolution Stage": "Final",
+    "Evolution Method": "Final evolution",
+    "Evolves From": "Wartortle",
+    "Evolves Into": null
+  },
+  {
+    "Pokedex Number": 10,
+    "Name": "Caterpie",
+    "Form/Variant": "Normal",
+    "Type 1": "Bug",
+    "Type 2": null,
+    "Strong Against": [
+      "Grass",
+      "Psychic",
+      "Dark"
+    ],
+    "Weak To": [
+      "Fire",
+      "Flying",
+      "Rock"
+    ],
+    "Evolution Stage": "Basic",
+    "Evolution Method": "Level 7",
+    "Evolves From": null,
+    "Evolves Into": "Metapod"
+  }
+]
