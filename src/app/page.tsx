@@ -480,6 +480,8 @@ export default function PokemonSearchPage() {
           }
           .pokedex-btn {
             border: 2px solid #fff !important;
+            padding: 0.75rem 0.7rem; /* Make button thinner */
+            font-size: 1.1rem;
           }
         }
       `}</style>
