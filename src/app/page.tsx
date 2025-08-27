@@ -447,12 +447,13 @@ export default function PokemonSearchPage() {
             border-radius: 0;
           }
           .pokedex-main {
-            max-width: 95vw;
+            max-width: 80vw;
+            width: 80vw;
             margin: 2rem auto 0 auto;
             padding: 0;
           }
           .pokedex-form {
-            max-width: 350px;
+            max-width: 100%;
             margin: 0 auto 2rem auto;
             width: 100%;
           }
