@@ -425,6 +425,9 @@ export default function PokemonSearchPage() {
           font-size: 1.2rem;
         }
         @media (max-width: 600px) {
+          .pokedex-bg {
+            background: #e3350d;
+          }
           .pokedex-header,
           .pokedex-bar {
             max-width: 100vw;
