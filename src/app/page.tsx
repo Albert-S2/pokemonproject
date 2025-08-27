@@ -450,7 +450,7 @@ export default function PokemonSearchPage() {
             max-width: 400px;
             width: 100vw;
             margin: 2rem auto 0 auto;
-            padding-left: max(env(safe-area-inset-left), 10px);
+            padding-left: 0;
             padding-right: max(env(safe-area-inset-right), 10px);
             box-sizing: border-box;
           }
