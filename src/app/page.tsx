@@ -447,9 +447,14 @@ export default function PokemonSearchPage() {
             border-radius: 0;
           }
           .pokedex-main {
-            max-width: 100vw;
+            max-width: 95vw;
             margin: 2rem auto 0 auto;
-            padding: 0; /* Remove horizontal padding */
+            padding: 0;
+          }
+          .pokedex-form {
+            max-width: 350px;
+            margin: 0 auto 2rem auto;
+            width: 100%;
           }
           .pokedex-card {
             padding: 1rem;
@@ -469,6 +474,9 @@ export default function PokemonSearchPage() {
           .pokedex-badge {
             font-size: 0.85rem;
             padding: 0.15rem 0.5rem;
+          }
+          .pokedex-btn {
+            border: 2px solid #fff !important;
           }
         }
       `}</style>
