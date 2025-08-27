@@ -428,6 +428,19 @@ export default function PokemonSearchPage() {
           .pokedex-bg {
             background: #e3350d;
           }
+          /* Custom scrollbar for mobile */
+          .pokedex-bg::-webkit-scrollbar {
+            width: 8px;
+            background: #e3350d;
+          }
+          .pokedex-bg::-webkit-scrollbar-thumb {
+            background: #f9f9f9;
+            border-radius: 8px;
+          }
+          .pokedex-bg {
+            scrollbar-color: #f9f9f9 #e3350d;
+            scrollbar-width: thin;
+          }
           .pokedex-header,
           .pokedex-bar {
             max-width: 100vw;
