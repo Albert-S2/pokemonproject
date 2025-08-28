@@ -219,7 +219,7 @@ export default function PokemonSearchPage() {
                   <ul className="pokedex-evolutions">
                     {data.evolutions.map((evo, idx) => (
                       <li key={idx}>
-                        {evo.species_name}
+                        {evo.species_name.charAt(0).toUpperCase() + evo.species_name.slice(1)}
                         {evo.min_level ? ` — Level ${evo.min_level}` : ""}
                         {evo.item ? ` — Item: ${evo.item}` : ""}
                         {evo.trigger && evo.trigger !== "level-up" ? ` — Trigger: ${evo.trigger}` : ""}
