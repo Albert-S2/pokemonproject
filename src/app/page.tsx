@@ -483,6 +483,9 @@ export default function PokemonSearchPage() {
             padding: 0.75rem 0.7rem; /* Make button thinner */
             font-size: 1.1rem;
           }
+          .pokedex-error {
+            color: #111 !important; /* Black on mobile */
+          }
         }
       `}</style>
     </div>
