@@ -487,6 +487,42 @@ export default function PokemonSearchPage() {
             color: #111 !important; /* Black on mobile */
           }
         }
+        @media (min-width: 601px) and (max-width: 900px) {
+          .pokedex-main {
+            max-width: 500px;
+            width: 90vw;
+            margin: 2rem auto 0 auto;
+            padding: 0;
+          }
+          .pokedex-card {
+            padding: 1.5rem;
+          }
+          .pokedex-img {
+            width: 100px;
+            height: 100px;
+          }
+          .pokedex-name {
+            font-size: 1.7rem;
+          }
+        }
+        @media (min-width: 901px) {
+          .pokedex-main {
+            max-width: 500px;
+            width: 100%;
+            margin: 2rem auto 0 auto;
+            padding: 0;
+          }
+          .pokedex-card {
+            padding: 2rem;
+          }
+          .pokedex-img {
+            width: 120px;
+            height: 120px;
+          }
+          .pokedex-name {
+            font-size: 2rem;
+          }
+        }
       `}</style>
     </div>
   );
