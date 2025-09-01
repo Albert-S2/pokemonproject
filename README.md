@@ -3,9 +3,7 @@
 Modern, responsive Pokédex web application built with Next.js, TypeScript, and Vercel.
 It fetches live Pokémon data from PokéAPI and displays types, strengths, weaknesses, and evolution chains in a Pokédex-inspired UI.
 
-[Go to deployed page](https://mypokedex-topaz.vercel.app/ )
-
-<a href="https://mypokedex-topaz.vercel.app/" target="_blank">Go to deployed page</a>
+[Link to deployed page](https://mypokedex-topaz.vercel.app/ )
 
 
 ## Features
@@ -18,8 +16,17 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 - Consistent Look: App ignores system dark/light mode for a unified appearance.
 
 
+## Tech Stack
+- Next.js (App Router)
+- TypeScript
+- PokéAPI
+- Vercel for deployment
+- Tailwind CSS (optional, for global styles)
 
 
+## Usage
+1. Install dependencies:
+   ```npm install```
 
-link to the deployed version: 
-https://mypokedex-topaz.vercel.app/ 
+2. 
+   
