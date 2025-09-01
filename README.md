@@ -33,7 +33,7 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 
    ```npm run dev```
 
-3. npm run build:
+3. Build for production:
 
    ```npm run build```
 
