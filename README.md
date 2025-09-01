@@ -5,6 +5,8 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 
 [Go to deployed page](https://mypokedex-topaz.vercel.app/ )
 
+<a href="https://mypokedex-topaz.vercel.app/" target="_blank">Go to deployed page</a>
+
 
 ## Features
 - Live Pokémon Search: Type a Pokémon name and view its details instantly.
