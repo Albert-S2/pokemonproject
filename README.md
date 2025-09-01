@@ -29,5 +29,21 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 
    ```npm install```
 
-3. 
+2. Run locally:
+
+   ```npm run dev```
+
+3. npm run build:
+
+   ```npm run build```
+
+4. Deploy:
+
+   Push to GitHub and connect your repo to Vercel for automatic deployment.
+
+
+## How to use 
+- Enter a Pokémon name in the search box and press Search.
+- View its image, types, strengths, weaknesses, and evolution chain.
+- Works on all devices and screen sizes.
    
