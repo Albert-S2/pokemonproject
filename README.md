@@ -26,7 +26,8 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 
 ## Usage
 1. Install dependencies:
+
    ```npm install```
 
-2. 
+3. 
    
