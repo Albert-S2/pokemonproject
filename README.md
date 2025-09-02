@@ -16,6 +16,10 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 - Consistent Look: App ignores system dark/light mode for a unified appearance.
 
 
+## Demo
+
+
+
 ## Tech Stack
 - Next.js (App Router)
 - TypeScript
