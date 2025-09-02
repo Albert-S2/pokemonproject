@@ -18,6 +18,9 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 
 ## Demo
 
+https://github.com/user-attachments/assets/ae268ddc-5088-49d1-8cc2-053a36d7d82b
+
+
 
 
 ## Tech Stack
