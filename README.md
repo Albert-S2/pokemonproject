@@ -6,6 +6,7 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 [Link to deployed page](https://mypokedex-topaz.vercel.app/ )
 
 
+
 ## Features
 - Live Pokémon Search: Type a Pokémon name and view its details instantly.
 - Type Badges: See colored badges for each Pokémon type.
@@ -16,10 +17,10 @@ It fetches live Pokémon data from PokéAPI and displays types, strengths, weakn
 - Consistent Look: App ignores system dark/light mode for a unified appearance.
 
 
+
 ## Demo
 
 https://github.com/user-attachments/assets/ae268ddc-5088-49d1-8cc2-053a36d7d82b
-
 
 
 
@@ -29,6 +30,7 @@ https://github.com/user-attachments/assets/ae268ddc-5088-49d1-8cc2-053a36d7d82b
 - PokéAPI
 - Vercel for deployment
 - Tailwind CSS (optional, for global styles)
+
 
 
 ## Usage
@@ -47,6 +49,7 @@ https://github.com/user-attachments/assets/ae268ddc-5088-49d1-8cc2-053a36d7d82b
 4. Deploy:
 
    Push to GitHub and connect your repo to Vercel for automatic deployment.
+
 
 
 ## How to use 
